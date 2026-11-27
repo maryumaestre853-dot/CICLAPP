@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "Ciclapp",
+    "slug": "ciclapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "ciclapp",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "CICLAPP necesita tu ubicación para mostrarte rutas ciclistas."
+        }
+      ],
+      "expo-font",
+      "expo-image",
+      "expo-router",
+      "expo-splash-screen",
+      "expo-status-bar",
+      "expo-web-browser"
+    ],
+    "android": {
+      "package": "com.ciclapp.app",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyCb5J9fEy53jG_bswMdwl2tnpPwKnybtfE"
+        }
+      }
+    },
+    "ios": {
+      "bundleIdentifier": "com.ciclapp.app",
+      "config": {
+        "googleMapsApiKey": "AIzaSyCb5J9fEy53jG_bswMdwl2tnpPwKnybtfE"
+      }
+    }
+  }
+}
